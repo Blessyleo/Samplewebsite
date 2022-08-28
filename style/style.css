@@ -1,125 +1,268 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    /* background-image: url("../images/pexels-krivec-ales-547114.jpg"); */
-    /* background-position: center; */
-    background-size: cover;
-    /* background-repeat: no-repeat; */
+
+body {
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 /* header */
-header{
-    background-color: black;
-}
-#logo{
-    margin-left: 10%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-.navigation
-{
-    float:right;
-    margin-top: 50px;
-    margin-right: 50px;
-}
-.navigation a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 10px;
-    margin: 5px;
 
-}
-.navigation a:hover{
-     background-color:teal;
-     color: black;
-}
-
-/* aside */
-.side{
-    /* color: white; */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin:100px;
-    /* border: 1px solid red; */
-    width: 50%;
-    float: left;
-}
-.side h3{
-    /* margin-bottom: 10px; */
-}
-.side li{
-    padding: 2px;
-    list-style-type: square;
+#header {
+    background-color: lightseagreen;
+    height: 50px;
 
 }
 
-/* login */
-.login_page{
-    border: 1px solid red;
+#header h1 {
+    margin-left: 20px;
+    display: inline;
+}
+
+.navigation {
     float: right;
-    margin-top: 70px;
-    background-color: beige;
-    height: 15em;
-    padding: 30px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-right: 70px;
 
-}
-.login_page h2{
-    text-align: center;
-}
-#logg{
-    background-color: dodgerblue;
-    width: 100%;
-    border: none;
-    color: white;
-    height: 1.5em;
+    padding-top: 1px;
 }
 
-
-.container{
-    margin-top: 450px;
-    /* border: 1px solid red; */
-    margin-left: 50px;
-}
-
-
-/* courses */
-
-.p-box{
-    border: 3px solid white;
-    width: 22%;
-    float: left;
-    margin-left: 5px;
-    padding: 5px;
-    background-color: lightgrey;
-    height: 13em;
-
-}
-.p-box h4{
-    text-align: center;
-    margin-bottom: 15px;
-}
-.p-box a{
-    color: red;
-    text-decoration: none;
-}
-
-.p-box p{
-    text-align: justify;
-}
-
-footer{
+.navigation span {
+    margin-left: 40px;
     background-color: black;
-    color: white;
-    height: 1.5em;
-    margin-top: 58%;
+}
+
+.navigation a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-left: 70px;
+    font-weight: bold;
+
+}
+
+
+/* home */
+
+#home {
     text-align: center;
+    height: 50px;
+    padding-top: 20px;
+
+
+}
+
+/* about */
+
+#about {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.aside {
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin: 90px;
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+
+.aboutme {
+    height: 400px;
+
+}
+
+.aboutme h1 {
+    text-align: left;
+    /* border: 1px solid red;  */
+    text-decoration: underline;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 600px;
+    color: lightseagreen;
+
+}
+
+.aboutme p {
+    margin: 7px;
+}
+
+hr {
+    background-color: lightseagreen;
+    height: 1px;
 }
 
 
 
+/* Skill */
+
+#skill {
+    height: 400px;
+
+    background-color: beige;
+}
 
 
+.sideimg {
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.myskill h1 {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: lightseagreen;
+    text-decoration: underline;
+   
+    
+}
+
+.myskill ul {
+    height: 200px;
+    margin-left: 200px;
+    width: 200px;
+
+}
+
+.myskill li {
+    width: 300px;
+}
+
+
+
+/* education */
+#education {
+    height: 300px;
+
+}
+
+
+#education h1 {
+    text-align: center;
+    color: lightseagreen;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.educationlist {
+    line-height: 30px;
+}
+
+.educationlist ul {
+
+    margin-left: 200px;
+}
+
+
+
+/* contact form */
+
+
+#contact {
+    background-color: beige;
+    height: 500px;
+}
+
+#contact h1 {
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+    padding-top: 30px;
+
+}
+
+
+.contactform {
+
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 350px;
+    background-color: lightseagreen;
+
+}
+
+.contactform label {
+
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+
+
+}
+
+.contactform input[type=text],
+textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    resize: vertical;
+
+
+}
+
+#cont {
+    background-color: white;
+    width: 20%;
+    border: none;
+    color: black;
+    height: 1.5em;
+}
+
+
+/* footer */
+.footer1 {
+
+    height: 50px;
+
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.links span {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+}
+
+.links a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: bold;
+
+}
+
+.footer2 {
+    background-color: lightseagreen;
+    text-align: center;
+
+}
+
+.footer2 h3 {
+
+
+    width: 80%;
+}
+
+.footer2 a {
+    margin-left: 900px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+
+
+}
